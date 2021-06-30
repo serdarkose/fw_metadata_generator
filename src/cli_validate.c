@@ -25,10 +25,7 @@ bool validate_user_input(char **argv)
         return false;
     }
 
-    for (int i = 0; i < 4; i++)
-    {
-        printf("arg %d : %s\n", i, argv[i]);
-    }
+    //TODO: later on, it can check if the inputs are meaningful
 
     return true;
 }
